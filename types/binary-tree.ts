@@ -29,4 +29,10 @@ export class BinaryTreeIterator<T> implements Iterator<T> {
 
     return { done: false, value: result };
   }
+
+  private inOrder(node: BinaryTreeNode<T>): void{
+    if(node.left != undefined){
+      
+    }
+  }
 }
